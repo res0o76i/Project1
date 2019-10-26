@@ -10,9 +10,9 @@ const enemy = [
     {left: 200, top: 100},
     {left: 300, top: 100},
     {left: 400, top: 100},
-    // {left: 500, top: 175},
-    // {left: 600, top: 175},
-    // {left: 700, top: 175}
+    {left: 500, top: 175},
+    {left: 600, top: 175},
+    {left: 700, top: 175}
 ];
 // for( i = 3 ; i <= 9; i+=1){
 //     enemy.push({left:i * 100,top:175})
@@ -124,7 +124,7 @@ function gameLoop(){
 
         return;
     } 
-    setTimeout(gameLoop,50)// method to control timing
+    setTimeout(gameLoop,100)// method to control timing
     moveMissiles();
     fireMissiles();
     moveEnemies();
