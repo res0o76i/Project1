@@ -7,17 +7,24 @@ const hero = {
 const missiles = [];
 
 const enemy = [
-    {left: 200, top: 100},
-    {left: 300, top: 100},
-    {left: 400, top: 100},
-    {left: 500, top: 175},
-    {left: 600, top: 175},
-    {left: 700, top: 175}
+    // {left: 200, top: 100},
+    // {left: 300, top: 100},
+    // {left: 400, top: 100},
+    // {left: 500, top: 175},
+    // {left: 600, top: 175},
+    // {left: 700, top: 175}
 ];
 // for( i = 3 ; i <= 9; i+=1){
 //     enemy.push({left:i * 100,top:175})
 // };
 
+for( i = 2 ; i <= 4; i+=1){
+    enemy.push({left:i * 100,top:100})
+};
+
+for( i = 5 ; i <= 7; i+=1){
+    enemy.push({left:i * 100,top:175})
+};
 
 
 document.onkeydown = function(e) {
