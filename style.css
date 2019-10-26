@@ -1,0 +1,45 @@
+#background {
+    width: 1200px;
+    border: 1px solid black;
+    height: 800px;
+    border: 1px solid black;
+    background-image: url('images/background2.png');
+    position: absolute;
+}
+
+#hero {
+    width: 50px;
+    height: 50px;
+    background-image: url('images/hero.png');
+    position: absolute;
+    left: 550px;
+    top: 700px;
+}
+
+#missiles {
+    width: 1200px;
+    height: 800px;
+    position: absolute;
+}
+
+.missile1 {
+    width: 10px;
+    height: 28px;
+    background-image: url('images/missile1.png');
+    position: absolute;
+}
+
+#enemies {
+    width: 1200px;
+    height: 800px;
+    position: absolute;
+}
+
+.enemy {
+    width: 50px;
+    height: 50px;
+    background-image: url('images/enemy.png');
+    position: absolute;
+    /* top: 100px;
+    left: 550px; */
+}
